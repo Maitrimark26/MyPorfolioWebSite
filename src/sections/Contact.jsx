@@ -79,7 +79,9 @@ const handleSubmit = async (e) => {
 
   return (
     <section id="contact" className="flex-center section-padding">
-        <ToastContainer 
+
+      <div className="w-full h-full md:px-10 px-5">
+              <ToastContainer 
       position="top-right" // you can change position
       autoClose={3000}     // closes after 3 seconds
       hideProgressBar={false}
@@ -90,7 +92,6 @@ const handleSubmit = async (e) => {
       draggable
       pauseOnHover
     />
-      <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="Let’s Connect"
           sub="💬 Have questions or ideas? Let’s talk! 🚀"
