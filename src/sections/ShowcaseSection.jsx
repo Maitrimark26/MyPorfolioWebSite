@@ -65,7 +65,7 @@ const AppShowcase = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
-                <img src='/public/images/logos/BookMyMovie.png'
+                <img src='/public/images/logos/movie.png'
                   alt="Library Management Platform"
                 />
               </div>
@@ -74,7 +74,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src='/public/images/logos/AICHEF.png' alt="YC Directory App" />
+                <img src='/public/images/logos/chef.png' alt="YC Directory App" />
               </div>
               <h2>AI CHEF - Ai based recipe generator</h2>
             </div>
