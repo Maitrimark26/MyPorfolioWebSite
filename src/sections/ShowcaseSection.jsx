@@ -49,15 +49,17 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="">
-              <img src='/images/logos/vistream.png' alt="Ryde App Interface" />
+              <img src='/images/logos/vistream.png' alt="Ryde App Interface"/>
             </div>
             <div className="text-content">
               <h2>
                 VI STREAM - A video streaming platform like youtube.
               </h2>
-              <p className="text-white-50 md:text-xl">
+              < p className="text-white-50 md:text-xl">
                 An app built with React & TailwindCSS for a fast,
                 user-friendly experience.
+                
+            Demo - <a href="https://steady-tapioca-a0e3d1.netlify.app/"></a>
               </p>
             </div>
           </div>
@@ -70,6 +72,7 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>BookMyMovie </h2>
+              <p>Demo - <a href="https://harmonious-zabaione-9a3600.netlify.app/"></a></p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
@@ -77,6 +80,7 @@ const AppShowcase = () => {
                 <img src='/images/logos/chef.png' alt="YC Directory App" />
               </div>
               <h2>AI CHEF - Ai based recipe generator</h2>
+              <p>Demo - <a href="https://dashing-froyo-e2006a.netlify.app/"></a></p>
             </div>
           </div>
         </div>
