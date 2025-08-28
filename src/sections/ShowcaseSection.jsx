@@ -59,8 +59,9 @@ const AppShowcase = () => {
                 An app built with React & TailwindCSS for a fast,
                 user-friendly experience.
                 
-            Demo - <a href="https://steady-tapioca-a0e3d1.netlify.app/"></a>
+            
               </p>
+              <p><a href="https://steady-tapioca-a0e3d1.netlify.app/">Demo</a></p>
             </div>
           </div>
 
@@ -72,7 +73,7 @@ const AppShowcase = () => {
                 />
               </div>
               <h2>BookMyMovie </h2>
-              <p>Demo - <a href="https://harmonious-zabaione-9a3600.netlify.app/"></a></p>
+              <p><a href="https://harmonious-zabaione-9a3600.netlify.app/">Demo</a></p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
@@ -80,7 +81,7 @@ const AppShowcase = () => {
                 <img src='/images/logos/chef.png' alt="YC Directory App" />
               </div>
               <h2>AI CHEF - Ai based recipe generator</h2>
-              <p>Demo - <a href="https://dashing-froyo-e2006a.netlify.app/"></a></p>
+              <p> <a href="https://dashing-froyo-e2006a.netlify.app/">Demo</a></p>
             </div>
           </div>
         </div>
