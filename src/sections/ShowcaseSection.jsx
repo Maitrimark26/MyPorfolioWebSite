@@ -49,7 +49,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="">
-              <img src='/public/images/logos/vistream.png' alt="Ryde App Interface" />
+              <img src='/images/logos/vistream.png' alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2>
@@ -65,7 +65,7 @@ const AppShowcase = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
-                <img src='/public/images/logos/movie.png'
+                <img src='/images/logos/movie.png'
                   alt="Library Management Platform"
                 />
               </div>
@@ -74,7 +74,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src='/public/images/logos/chef.png' alt="YC Directory App" />
+                <img src='/images/logos/chef.png' alt="YC Directory App" />
               </div>
               <h2>AI CHEF - Ai based recipe generator</h2>
             </div>
